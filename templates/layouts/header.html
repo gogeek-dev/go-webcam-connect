@@ -1,0 +1,33 @@
+{{ define "templates/layouts/header.html"}}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Webcam </title>
+    <!-- Bootstrap CSS -->
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+    
+  </head>
+
+  <body>
+  	
+  	<header class="flex">
+
+		<div class="logo"> <a href="index.html"> <img src="assets/img/logo.svg"> </a> </div>
+
+		<div class="btn-group">
+			<button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  <img src="assets/img/profile-img.svg"> {{ .Username }}
+			</button>
+			<div class="dropdown-menu dropdown-menu-right">
+			  <a href="/logout"><button class="dropdown-item" type="button">Logout</button></a>
+			</div>
+		  </div>
+
+	</header>
+{{ end }}

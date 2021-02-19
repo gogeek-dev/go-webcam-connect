@@ -1,0 +1,20 @@
+{{ template "templates/layouts/header.html" .}}
+
+	<div class="page-wrapper save-page-wrapper flex">
+
+		<div class="save-picture">
+
+			<div class="tp-view"> 
+                <img src="{{ .filepath }}" width="600" height="450">                
+             </div>
+
+             <div class="flex buttons">
+                 <a href="/takepicture"><button>Back</button></a>
+                 <a href="/saveimage?path={{ .filepath }}"><button>Save</button></a>
+             </div>
+			
+
+		</div>
+
+	</div>
+{{ template "templates/layouts/footer.html" .}}

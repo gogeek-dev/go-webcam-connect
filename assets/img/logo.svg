@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146" height="38" viewBox="0 0 146 38">
+  <g id="Group_1" data-name="Group 1" transform="translate(-16 -9)">
+    <g id="webcam" transform="translate(-22.366 9)">
+      <path id="Path_1" data-name="Path 1" d="M64.612,270.4v.024a1.795,1.795,0,0,1-2.351,1.678,36.639,36.639,0,0,0-21.545,0,1.8,1.8,0,0,1-2.351-1.678V270.4a9.727,9.727,0,0,1,3.215-6.742,14.282,14.282,0,0,1,19.816,0A9.726,9.726,0,0,1,64.612,270.4Z" transform="translate(0 -240.188)" fill="#62667c"/>
+      <path id="Path_2" data-name="Path 2" d="M101.055,263.656a14.307,14.307,0,0,1-19.816,0A14.282,14.282,0,0,1,101.055,263.656Z" transform="translate(-39.658 -240.188)" fill="#4f5363"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="13.122" cy="13.122" r="13.122" transform="translate(38.367 0)" fill="#eeefee"/>
+      <path id="Path_3" data-name="Path 3" d="M118.593,87.9a7.683,7.683,0,1,1,7.684-7.683A7.683,7.683,0,0,1,118.593,87.9Z" transform="translate(-67.104 -67.09)" fill="#62667c"/>
+      <path id="Path_4" data-name="Path 4" d="M143.441,110.729a5.669,5.669,0,1,1,5.669-5.669A5.669,5.669,0,0,1,143.441,110.729Z" transform="translate(-91.952 -91.938)" fill="#828a9e"/>
+      <path id="Path_5" data-name="Path 5" d="M168.278,133.552a3.655,3.655,0,1,1,3.655-3.655h0a3.659,3.659,0,0,1-3.655,3.655Z" transform="translate(-116.789 -116.775)" fill="#69b0ee"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.108" cy="1.108" r="1.108" transform="matrix(0.16, -0.987, 0.987, 0.16, 50.215, 3.922)" fill="#ef5261"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="1.586" cy="0.806" rx="1.586" ry="0.806" transform="translate(48.205 12.292) rotate(-45)" fill="#eeefee"/>
+    </g>
+    <text id="WEBcam-2" data-name="WEBcam" transform="translate(49 40)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">WEB</tspan><tspan y="0" font-family="SegoeUI, Segoe UI" font-weight="400">cam</tspan></text>
+  </g>
+</svg>

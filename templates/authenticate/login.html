@@ -1,0 +1,36 @@
+
+{{ template "templates/layouts/authheader.html" .}}
+  <title>Signin </title>
+
+    <div class="flex login-wrapper">
+
+      <div class="login-right">
+        <img src="assets/img/login-img.png">
+      </div>
+
+      <div class="login-left flex">
+
+        <div class="ll-wrap">
+
+          <h3>Signin</h3>
+           <label style="color:red">{{.error}}</label>
+          <form action="/signin" method="POST">
+          <input id="Emailid" type="text" name="name" placeholder="Username" value="{{ .email }}">
+
+          <input id="Password" type="password" name="password" placeholder="Password">
+
+          <button class="ripple" id="SingIn" > Login </button>
+          </form>
+          <a href="/newregister" style="float:right"> New user ? </a>        
+        </div>
+            
+      </div>
+      <!--left-->
+
+    </div>
+
+  	
+{{ template "templates/layouts/authfooter.html" .}}
+  	
+  	
+

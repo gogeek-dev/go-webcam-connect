@@ -1,0 +1,45 @@
+
+{{ template "templates/layouts/authheader.html" .}}
+    <title>Signup</title>
+
+
+    <div class="flex login-wrapper1">
+
+      <div class="login-right">
+        <img src="assets/img/login-img.png">
+      </div>
+
+      <div class="login-left flex" >
+
+        <div class="ll-wrap">
+          <form method="POST" action="/savedata">
+          <h3>Signup</h3>
+          <label style="color:red">{{.error1}}</label>
+          <input id="Name" type="text" name="name" placeholder="Username">
+
+          <input id="Emailid" type="text" name="email" placeholder="Email Id">
+
+          <input id="Mobileno" type="text" name="mobilenumber" placeholder="Mobile number">
+
+          <input id="Password" type="password" name="password" placeholder="Password">
+           <label style="color:red">{{.error}}</label>
+          <input id="Cpassword" type="password" placeholder="Confirm Password">
+
+          <button id="btn_Register" type="submit"> Register </button>
+          </form>
+          <a href="/" style="float:right">Already have an account?</a>
+          
+        </div>
+
+      </div>
+      <!--left-->
+
+    </div>
+
+  	{{ template "templates/layouts/authfooter.html" .}}
+
+  	
+  	
+
+
+  	
